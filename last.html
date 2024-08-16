@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Well Done</title>
+   
+    <link rel="stylesheet" href="styles1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Inline CSS to override Bootstrap defaults */
+        .custom-row {
+            background-color: #f8f9fa; /* Light grey background color */
+            padding: 20px; /* Add padding */
+        }
+    </style>
+</head>
+<body>
+    <audio id="cheers">
+        <source src="./assests/audio/cheers.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="points">
+        <source src="./assests/audio/points.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="fail">
+        <source src="./assests/audio/fail.mp3" type="audio/mpeg">
+    </audio>
+      
+    <div class="container-fluid">
+        <div class="header">
+            <img src="./assests/logo/logo1.png" alt="logo" class="company-logo" />
+            <img src="./assests/logo/logo2.png" alt="logo" class="company-logo" />
+        </div>
+        
+        <div class="container">
+            <div class="row custom-row d-flex" style="margin-top: 10%;background-color: #BBE9FF;">
+                <div class="col-md-5">
+                    <img src="./assests/story/1.png" alt="" class="img-fluid" style="width: 75%;">
+                </div>
+                <div class="col-md-7 d-flex align-items-center">
+                    <div>
+                        <h2>Well Done 👍</h3>
+                        <p style="font-size: 1.3rem;">You have completed the chapter of Cartesian plane.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
